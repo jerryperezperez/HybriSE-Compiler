@@ -955,9 +955,9 @@ public class inicio extends javax.swing.JFrame {
 
                                         String g = "ERRSEM";
                                         String o = "Incompatibilidad de tipo";
-                                        String ñ = o + (IDT[t + 1]);
+                                        String auxiliar = o + (IDT[t + 1]);
                                         l = cont;
-                                        descripcion.add(ñ);
+                                        descripcion.add(auxiliar);
                                         String p = g + contiv;
                                         Terrores.add(p);
                                         dtm2.addRow(new Object[]{Terrores.get(l), IDT[t], lin[b], descripcion.get(l)});
@@ -986,9 +986,9 @@ public class inicio extends javax.swing.JFrame {
                                                     } else {
                                                         String g = "ERRSEM";
                                                         String o = "Incompatibilidad de tipo";
-                                                        String ñ = o + (IDT[j + 1]);
+                                                        String auxiliar = o + (IDT[j + 1]);
                                                         l = cont;
-                                                        descripcion.add(ñ);
+                                                        descripcion.add(auxiliar);
                                                         String p = g + contiv;
                                                         Terrores.add(p);
                                                         dtm2.addRow(new Object[]{Terrores.get(l), IDT[j], lin[b], descripcion.get(l)});
@@ -1002,9 +1002,9 @@ public class inicio extends javax.swing.JFrame {
 
                                             String g = "ERRSEM";
                                             String o = "Incompatibilidad de tipo";
-                                            String ñ = o + (IDT[t + 1]);
+                                            String auxiliar = o + (IDT[t + 1]);
                                             l = cont;
-                                            descripcion.add(ñ);
+                                            descripcion.add(auxiliar);
                                             String p = g + contiv;
                                             Terrores.add(p);
                                             dtm2.addRow(new Object[]{Terrores.get(l), IDT[t], lin[b], descripcion.get(l)});
