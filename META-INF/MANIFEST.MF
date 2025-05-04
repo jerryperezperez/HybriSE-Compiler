@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Main-Class: main.inicio
+Class-Path: flatlaf-intellij-themes-1.2.jar flatlaf-1.1.2.jar Compilador
+ _HybriSE.jar
+
