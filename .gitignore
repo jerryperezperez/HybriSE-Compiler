@@ -1,13 +1,3 @@
-# IntelliJ
-.idea/
+/target
+/.idea
 *.iml
-
-# Eclipse
-.project
-.classpath
-.settings/
-
-# IDE build output
-/out/
-/build/
-/target/
