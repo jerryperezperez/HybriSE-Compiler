@@ -1,3 +1,3 @@
 
 
-java -jar target\MyApp.jar
+java -jar target\MiApp.jar
