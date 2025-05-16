@@ -14,15 +14,16 @@ rem Paso 2. Se limpia el directorio que almacena el archivo jar y las compilacio
 echo Limpiando directorio de salida...
 rmdir /s /q target
 mkdir %SALIDA%
-rem Se compilan los archivos y se almacenan en el directorio de salida
+
+rem Paso 3. Se compilan los archivos y se almacenan en el directorio de salida
 echo Compilando los archivos y guardando en directorio de salida...
 javac -cp "%CLASSPATH%" -d %SALIDA% %SRC%
 
-rem Paso 3. Crear archivo JAR
+rem Paso 4. Se crea el archivo JAR
 echo Recuperando archivo MANIFEST y guardando archivo jar en directorio de salida...
 jar cfm %JAR% %ARCHIVO_MANIFEST% -C %SALIDA% .
 
-rem Paso 5. Copiando bibliotecas en el directorio de salida
+rem Paso 5. Se copian las bibliotecas en el directorio de salida
 echo Copiando bibliotecas para el funcionamiento del jar...
 mkdir target\lib
 copy lib\*.jar target\lib\
